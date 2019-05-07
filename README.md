@@ -10,6 +10,9 @@ incoming connection from the client, send/receive messages to/from the client,
 and finally close each connection.
 
 ## Client Side
+A simple TCP client was created to show the difference between a TCP request (no header) and HTTP request (header).
+The TCP client gets run through the terminal (by running tcp-client.c) while the HTTP client gets run through a web browser.
+
 ### TCP Connection
 File: tcp-client.c
 
